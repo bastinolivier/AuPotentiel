@@ -16,6 +16,8 @@ import { JwtInterceptor } from './Login/_helpers/jwt.interceptor';
 import { ContactComponent } from './UserAuth/contact/contact.component';
 import { UserPageComponent } from './UserAuth/user-page.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
+import { CandidateComponent } from './candidate/candidate.component';
+import { EmployerComponent } from './employer/employer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HeaderMenuComponent } from './header-menu/header-menu.component';
     UserPageComponent,
     AlertComponent,
     ContactComponent,
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    CandidateComponent,
+    EmployerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,209 @@
+<div class="container">
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Bienvenue sur l'Espace Candidat</h1>
+  <p class="lead">Nous vous proposons un processus plus simple et plus adapté de création de profils,
+    axé sur vos compétences et vos centres d'intérêts.
+    Vos profils seront visibles pour pour les entreprises venant sur la plateforme.
+    Nous proposons aux entreprises de réaliser le premier entretien par mail.</p>
+    <p class="lead">
+      Nous vous proposons aussi selon votre envie ou votre besoin d'avoir un accompagnement lors
+      du premier entretien physique et des premiers jours en entreprise afin d'aider
+      l'entreprise à mieux d'adapter à vos besoins en termes d'infrastructures,
+      d'environnement sonore... Cette proposition sera une case à cocher dans le profil
+      que vous allez remplir.
+  </p> 
+</div>
+</div>
+<!-- block input -->
+<div class="container border border-primary rounded">
+  <h1 class="mb-4">Contact :</h1>
+<form>
+    <div class="row mb-4">
+        <div class="col-4">
+            <select class="form-select" value={{currentUser.title}}>
+              <option value="" disabled selected hidden>Civilité</option>
+              <option value="Monsieur">Monsieur</option>
+              <option value="Madame">Madame</option>
+              <option value="Mademoiselle">Mademoiselle</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-4">
+     <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Prenom" value={{currentUser.firstname}} />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Nom" value={{currentUser.name}} />
+        </div>
+      </div>
+    </div>
+  
+    <!-- Text input -->
+    <div class="row mb-4">
+
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Adresse"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Code Postal" />
+        </div>
+      </div>
+      
+    </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form6Example5" class="form-control" placeholder="" value={{currentUser.username}} />
+      
+    </div>
+  
+    <!-- Number input -->
+    <div class="form-outline mb-4">
+      <input type="phone" id="form6Example6" class="form-control" placeholder="Telephone (Optionnel)"/>
+    </div>
+  
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+      <textarea class="form-control" id="form6Example7" rows="4" placeholder="Autre informations (Optionnel)"></textarea>
+    </div>
+  
+    <!-- Checkbox -->
+  
+  </form>
+</div>
+
+
+<!-- block input -->
+<div class="container mt-4 border border-danger rounded">
+  <h1 class="mb-4">Parcours :</h1>
+<form>
+    <div class="row mb-4">
+        <div class="col-4">
+            <select class="form-select" value={{currentUser.title}}>
+              <option value="" disabled selected hidden>Civilité</option>
+              <option value="Monsieur">Monsieur</option>
+              <option value="Madame">Madame</option>
+              <option value="Mademoiselle">Mademoiselle</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-4">
+     <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Prenom" value={{currentUser.firstname}} />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Nom" value={{currentUser.name}} />
+        </div>
+      </div>
+    </div>
+  
+    <!-- Text input -->
+    <div class="row mb-4">
+
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Adresse"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Code Postal" />
+        </div>
+      </div>
+      
+    </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form6Example5" class="form-control" placeholder="" value={{currentUser.username}} />
+      
+    </div>
+  
+    <!-- Number input -->
+    <div class="form-outline mb-4">
+      <input type="phone" id="form6Example6" class="form-control" placeholder="Telephone (Optionnel)"/>
+    </div>
+  
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+      <textarea class="form-control" id="form6Example7" rows="4" placeholder="Autre informations (Optionnel)"></textarea>
+    </div>
+  
+    <!-- Checkbox -->
+  
+  </form>
+</div>
+
+
+<!-- block input -->
+<div class="container mt-4 border border-warning rounded">
+  <h1 class="mb-4">Centre d'interets :</h1>
+<form>
+    <div class="row mb-4">
+        <div class="col-4">
+            <select class="form-select" value={{currentUser.title}}>
+              <option value="" disabled selected hidden>Civilité</option>
+              <option value="Monsieur">Monsieur</option>
+              <option value="Madame">Madame</option>
+              <option value="Mademoiselle">Mademoiselle</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mb-4">
+     <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Prenom" value={{currentUser.firstname}} />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Nom" value={{currentUser.name}} />
+        </div>
+      </div>
+    </div>
+  
+    <!-- Text input -->
+    <div class="row mb-4">
+
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example1" class="form-control" placeholder="Adresse"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="form6Example2" class="form-control" placeholder="Code Postal" />
+        </div>
+      </div>
+      
+    </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form6Example5" class="form-control" placeholder="" value={{currentUser.username}} />
+      
+    </div>
+  
+    <!-- Number input -->
+    <div class="form-outline mb-4">
+      <input type="phone" id="form6Example6" class="form-control" placeholder="Telephone (Optionnel)"/>
+    </div>
+  
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+      <textarea class="form-control" id="form6Example7" rows="4" placeholder="Autre informations (Optionnel)"></textarea>
+    </div>
+  
+    <!-- Checkbox -->
+  
+  </form>
+</div>

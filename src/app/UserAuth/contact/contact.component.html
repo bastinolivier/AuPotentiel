@@ -1,21 +1,113 @@
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mt-5 mx-auto">
-<div><h3 class="display-4 text-center">Contacter les ressources humaines</h3></div>
-<form [formGroup]="contactForm" class="center">
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email</label>
-      <input type="email" formControlName="username" class="form-control" id="exampleFormControlInput1">
+<div class="container py-5">
+    <div class="media col-md-10 col-lg-8 col-xl-7 p-0 my-4 mx-auto">
+      <div class="media-body ml-5">
+        <h2 class="font-weight-bold mb-4">Vous trouverez ici des offres d'emplois</h2>
+        <h4 class="opacity-75 mb-4 text-center">
+         Si besoin, nous vous accompagneront jusqu'à votre integration
+        </h4>
+        <a href="#" class="d-inline-block text-white">
+          <strong>234</strong>
+          <span class="opacity-75">followers</span>
+        </a>
+        <a href="#" class="d-inline-block text-white ml-3">
+          <strong>111</strong>
+          <span class="opacity-75">following</span>
+        </a>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="object">Objet</label>
-      <select class="form-control" formControlName="objet" id="object">
-        <option value="" disabled selected hidden>Sujet de la demande</option>
-        <option *ngFor="let item of objets">{{item.label}}</option>
-      </select>
+  </div>
+<div class="container">
+  
+  <!-- card -->
+  <div class="card mb-3" style="max-width: 1000px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../../../assets/img/Logo-Crédit-Agricole.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Titre de l'offre: Data Scientist</h5>
+          <p class="card-text">Entreprise: Crédit Agricole<br>
+            Email: contact@CreditAgricole.com<br>
+            Compétences demandées: développement<br>
+            Horaires: 8h-12h; 14h-18h<br>
+            Journée type:<br>
+            -3 heures de développement<br>
+            -3 heures d'analyse des donées<br>
+            -2 heures de compte rendus
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <a href="#" class="btn btn-primary">Voir plus</a>
+        </div>
+      </div>
     </div>
-    <div class="form-group">
-      <label>Votre message</label>
-      <textarea class="form-control" rows="6"></textarea>
+  </div>
+  <!-- ---- -->
+
+    <!-- card -->
+    <div class="card mb-3" style="max-width: 1000px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../../assets/img/logo-ambiance-paysage.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Titre de l'offre: Jardinier</h5>
+            <p class="card-text">Entreprise: Ambiance Paysage<br>
+              Email: support@ambiance.paysage.fr<br>
+              Compétences demandées: Paysagiste<br>
+              Horaires: 7h-12h; 14h-17h<br>
+              Journée type:<br>
+              -1/2 heures de verification de la demande du client avec les collègues<br>
+              -5/6 heures de création ou modification du jardin<br>
+              -1 heures de compte rendus avec les collègues et le client
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="#" class="btn btn-primary">Voir plus</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="w-10 btn btn-lg btn-outline-secondary" type="submit">Envoyer</button>
-  </form>
+    <!-- ---- -->
+
+        <!-- card -->
+        <div class="card mb-3" style="max-width: 1000px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../../assets/img/logo-thales.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Titre de l'offre: Intégrateur Web</h5>
+                <p class="card-text">Entreprise: Thales<br>
+                  Email: recrutement@thales.com<br>
+                  Compétences demandées: HTML,CSS,PHP,JS,SQL<br>
+                  Horaires: 8h-12h; 14h-18h<br>
+                  Journée type:<br>
+                  -1 heure de réunion avec les autres développeurs<br>
+                  -6 heures de développement<br>
+                  -1 heures de compte rendus avec les collègues
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <a href="#" class="btn btn-primary">Voir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---- -->
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 <div class="container mt-5">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h2 class="display-4">Bonjour {{currentUser.title}} {{currentUser.firstname}} {{currentUser.name}}</h2>
-      <p class="lead"> Bienvenue sur votre espace personnel</p>
+      <p class="lead"> Bienvenue sur votre espace candidat</p>
     </div>
     <div class="row row-cols-1 row-cols-md-3 mb-3 mt-5 text-center">
       <div class="col">
@@ -11,44 +11,41 @@
         </div>
         <div class="card-body">
           <ul class="list-unstyled mt-3 mb-4">
-            <li>Communication interne</li>
-            <li>Bourse</li>
-            <li>Météo</li>
-            <li>Nouveautés</li>
+            <li>Notre projet</li>
+            <li>Pour vous accompagner</li>
+            <li>Nouveautées</li>
           </ul>
-          <button type="button" class="w-100 btn btn-lg btn-outline-secondary" routerLink="/newsPage" >Portail d'actualités</button>
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/home" >Portail d'actualités</button>
         </div>
       </div>
       </div>
       <div class="col">
         <div class="card mb-4 shadow-sm">
         <div class="card-header card-color">
-          <h4 class="my-0 fw-normal text-color">Outils</h4>
+          <h4 class="my-0 fw-normal text-color">Votre profil candidat</h4>
         </div>
         <div class="card-body">
             <ul class="list-unstyled mt-3 mb-4">
-                <li>Documentations techniques</li>
-                <li>Carnet d'adresses</li>
-                <li>Feuilles de temps </li>
-                <li>Notes de frais</li>
+                <li>Vos informations</li>
+                <li>Votre parcours</li>
+                <li>Vos passe-temps</li>
             </ul>
-          <button type="button" class="w-100 btn btn-lg btn-outline-secondary" routerLink="/toolsPage" >Accéder aux outils</button>
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/candidate" >Accéder au profil</button>
         </div>
       </div>
       </div>
       <div class="col">
         <div class="card mb-4 shadow-sm">
         <div class="card-header card-color">
-          <h4 class="my-0 fw-normal text-color">Ressources humaines</h4>
+          <h4 class="my-0 fw-normal text-color">Les Offres</h4>
         </div>
         <div class="card-body">
           <ul class="list-unstyled mt-3 mb-4">
-            <li>Fiches de paie</li>
-            <li>Demande de congés</li>
-            <li>Arrêt maladie</li>
+            <li>Offre d'emplois</li>
+            <li>Accompagnement</li>
             <li>Demande de rendez-vous</li>
           </ul>
-          <button type="button" class="w-100 btn btn-lg btn-outline-secondary" routerLink="/humanRessource" >Contactez-nous</button>
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary" routerLink="/humanRessource" >Accéder aux offres</button>
         </div>
       </div>
       </div>
