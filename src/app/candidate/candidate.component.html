@@ -74,7 +74,23 @@
     </div>
   
     <!-- Checkbox -->
-  
+  <div class="row mb-4">
+
+    <div class="col">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Default radio
+        </label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control" placeholder="Contacte de votre accompagnant (Optionnel)" />
+      </div>
+    </div>
+    
+  </div>
   </form>
 </div>
 
@@ -84,24 +100,15 @@
   <h1 class="mb-4">Parcours :</h1>
 <form>
     <div class="row mb-4">
-        <div class="col-4">
-            <select class="form-select" value={{currentUser.title}}>
-              <option value="" disabled selected hidden>Civilité</option>
-              <option value="Monsieur">Monsieur</option>
-              <option value="Madame">Madame</option>
-              <option value="Mademoiselle">Mademoiselle</option>
-            </select>
-        </div>
-    </div>
-    <div class="row mb-4">
      <div class="col">
         <div class="form-outline">
-          <input type="text" id="form6Example1" class="form-control" placeholder="Prenom" value={{currentUser.firstname}} />
+          <input type="text" id="form6Example1" class="form-control" placeholder="Dernier diplome obtenu" />
         </div>
       </div>
       <div class="col">
         <div class="form-outline">
-          <input type="text" id="form6Example2" class="form-control" placeholder="Nom" value={{currentUser.name}} />
+          <input type="month" id="form6Example2" class="form-control"/>
+          <label> Année d'optention</label>
         </div>
       </div>
     </div>
@@ -111,15 +118,15 @@
 
       <div class="col">
         <div class="form-outline">
-          <input type="text" id="form6Example1" class="form-control" placeholder="Adresse"/>
+          <input type="text" id="form6Example1" class="form-control" placeholder="Dernier emploi"/>
         </div>
       </div>
       <div class="col">
         <div class="form-outline">
-          <input type="text" id="form6Example2" class="form-control" placeholder="Code Postal" />
+          <input type="month" id="form6Example2" class="form-control"/>
+          <label> Date de fin du dernier emploi</label>
         </div>
-      </div>
-      
+      </div>  
     </div>
   
     <!-- Email input -->
