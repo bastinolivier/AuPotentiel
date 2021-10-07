@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title='AkanSoft'
+  title='AuPotentiel'
 
     constructor( ) {}
 }

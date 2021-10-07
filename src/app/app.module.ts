@@ -18,6 +18,8 @@ import { UserPageComponent } from './UserAuth/user-page.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { CandidateComponent } from './candidate/candidate.component';
 import { EmployerComponent } from './employer/employer.component';
+import { PostAdComponent } from './employer/post-ad/post-ad.component';
+import { ListeCandidateComponent } from './employer/liste-candidate/liste-candidate.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { EmployerComponent } from './employer/employer.component';
     ContactComponent,
     HeaderMenuComponent,
     CandidateComponent,
-    EmployerComponent
+    EmployerComponent,
+    PostAdComponent,
+    ListeCandidateComponent
   ],
   imports: [
     BrowserModule,

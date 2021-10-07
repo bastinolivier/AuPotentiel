@@ -2,6 +2,16 @@ a {
   text-decoration: none !important;
 }
 
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #010035;
+  font-size: 40px;
+}
+
+.text-size {
+  font-size: 18px;
+}
 /* ---------------------- Banner section ---------------------- */
 #banner {
   background-image: linear-gradient(to top, #007bff, #54dbe7);
@@ -15,7 +25,7 @@ a {
 
 .promo-title {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 800;
   margin-top: 100px;
 }
 
@@ -28,13 +38,30 @@ a {
   width: 100%;
 }
 
+/* ---------------------- About section ---------------------- */
+#about-us {
+  padding: 50px 0;
+}
+
+.about-title {
+  font-size: 28px;
+  margin-top: 8%;
+}
+
+.about-us__text {
+  margin: 50px auto 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 /* ---------------------- Services section ---------------------- */
 #services {
+  background: #f8f9fa;
   padding: 80px;
 }
 
 .service-img {
-  width: 100px;
+  width: 110px;
   margin-bottom: 20px;
 }
 
@@ -47,33 +74,41 @@ a {
 .title::before {
   content: '';
   background: #b3d7ff;
-  height: 5px;
+  height: 3px;
   width: 200px;
   margin: 0 auto;
   display: block;
-  transform: translateY(63px);
+  transform: translateY(65px);
 }
 
-/* ---------------------- Services section ---------------------- */
-#about-us {
-  background: #f8f9fa;
+/* ---------------------- Blog section ---------------------- */
+#blog {
   padding: 50px 0;
 }
 
-.about-title {
-  font-size: 28px;
-  font-weight: 600;
-  margin-top: 8%;
+#blog .site-content {
 }
 
+#blog .post-content {
+  width: 100%;
+}
+
+#blog .site-content .post-content > .post-video, .post-title {
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+#blog .post-content .post-title a {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222222;
+}
 /* ---------------------- Social media section ---------------------- */
 #social-media {
   padding: 100px 0;
 }
 
 #social-media p {
-  font-size: 40px;
-  font-weight: 600;
   margin-bottom: 30px;
 }
 
