@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'candidate', component: CandidateComponent, canActivate: [AuthGuard]},
   { path: 'userAuth', component: UserPageComponent, canActivate: [AuthGuard]}, 
   {path: 'offres' , component: ContactComponent, canActivate: [AuthGuard]},
-  { path: '**', redirectTo: 'home' },
+  { path: '**', redirectTo: '/' },
 ];
 
 @NgModule({
