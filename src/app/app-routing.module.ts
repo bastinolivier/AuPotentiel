@@ -14,7 +14,7 @@ import { ListeCandidateComponent } from './employer/liste-candidate/liste-candid
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signin', component: SigninComponent},
   { path: 'employer', component: EmployerComponent },
@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'candidate', component: CandidateComponent, canActivate: [AuthGuard]},
   { path: 'userAuth', component: UserPageComponent, canActivate: [AuthGuard]}, 
   {path: 'offres' , component: ContactComponent, canActivate: [AuthGuard]},
-  { path: '**', redirectTo: '/' },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
